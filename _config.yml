@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+title: "Michael Kostan"
+description: "Platform engineer and technical storyteller"
+markdown: kramdown
+plugins: []
