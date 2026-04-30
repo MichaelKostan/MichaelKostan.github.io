@@ -1,6 +1,3 @@
-# Michael Kostan
+More coming - hopefully - soon.
 
-Platform engineer and technical storyteller based in Auckland, NZ.  
-I work across DevOps, IaC, Linux, containers, etc.
-
-More coming soon.
+- Test Article: [my-first-post](articles/my-first-post.md)
