@@ -1,3 +1,8 @@
-More coming - hopefully - soon.
+# Michael's Articles
 
-- Test Article: [my-first-post](articles/my-first-post.md)
+## Cost of Living in New Zealand
+A multi-part series exploring the data, the personal reality, and the path forward.
+
+→ [Read the series](articles/cost-of-living-nz/)
+
+---
