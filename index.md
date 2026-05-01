@@ -1,3 +1,8 @@
+---
+layout: default
+title: Michael's Articles
+---
+
 # Michael's Articles
 
 ## Cost of Living in New Zealand

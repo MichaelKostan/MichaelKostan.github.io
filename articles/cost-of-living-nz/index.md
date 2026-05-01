@@ -1,3 +1,8 @@
+---
+layout: default
+title: Cost of Living in New Zealand
+---
+
 # Cost of Living in New Zealand
 
 A four-part series — the numbers, the human story, the levers for change, and a call for real conversation.
