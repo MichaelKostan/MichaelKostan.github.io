@@ -53,4 +53,25 @@ Cross-checks used to derive annual averages — primary source is Stats NZ Infos
 | 2025 release | [LMS Income June 2025](https://www.stats.govt.nz/information-releases/labour-market-statistics-income-june-2025-quarter/) |
 | Forecast | [RBNZ Monetary Policy Statement](https://www.rbnz.govt.nz/monetary-policy/monetary-policy-statement) |
 
+June quarter each year. All sources (wages, self-employment, government transfers). Before tax.
+2015–2018 estimated — NZIS survey discontinued 2016, HLFS series confirmed from 2019 onward.
+2021 derived: 2022 release states income rose $78 to $848, therefore 2021 = $770.
+2026–2027 forecast applies RBNZ wage inflation projection (~2% per year) to 2025 figure.
+
+| Year | Median weekly income (NZD) | Note |
+|------|---------------------------|------|
+| 2015 | ~$595 | estimated |
+| 2016 | ~$612 | estimated |
+| 2017 | ~$632 | estimated |
+| 2018 | ~$655 | estimated |
+| 2019 | $706 | |
+| 2020 | $652 | COVID impact |
+| 2021 | $770 | derived |
+| 2022 | $848 | |
+| 2023 | $921 | |
+| 2024 | $959 | |
+| 2025 | $959 | |
+| 2026 | ~$978 | forecast |
+| 2027 | ~$998 | forecast |
+
 ---
