@@ -6,30 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     {% seo %}
+    <style>
+      .wrapper { max-width: 1100px !important; width: 95% !important; }
+      section  { width: calc(100% - 260px) !important; float: right !important; }
+      header   { width: 220px !important; text-align: center !important; }
+      header img {
+        display: block !important; margin: 0 auto 1.2rem !important;
+        width: 130px !important; height: 130px !important;
+        border-radius: 50% !important; object-fit: cover !important;
+      }
+      .header-links {
+        margin-top: 1rem; display: flex; flex-wrap: wrap;
+        justify-content: center; gap: 0.5rem 0.8rem;
+      }
+      .header-links a { font-size: 0.9rem; color: #267CB9; text-decoration: none; }
+      .header-links a:hover { text-decoration: underline; }
+      @media (max-width: 700px) {
+        section, header { width: 100% !important; float: none !important; }
+        header { margin-bottom: 2rem; }
+      }
+    </style>
   </head>
-
   <body>
     <div class="wrapper">
       <header>
         {% if site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" style="width:130px;height:130px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 1.2rem;" />
+          <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" />
         {% endif %}
-
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
         <p>{{ site.description }}</p>
-
-        <p style="margin-top:1rem;">
-          <a href="https://www.linkedin.com/in/michael-kostan-81927a59" style="margin-right:0.8rem;">LinkedIn</a>
+        <div class="header-links">
+          <a href="https://www.linkedin.com/in/michael-kostan-81927a59">LinkedIn</a>
+          <a href="https://github.com/MichaelKostan">GitHub</a>
           <a href="mailto:michael@kostan.co.nz">Email</a>
-        </p>
+        </div>
       </header>
-
       <section>
         {{ content }}
       </section>
     </div>
-
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   </body>
 </html>

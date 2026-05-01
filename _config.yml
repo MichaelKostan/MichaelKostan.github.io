@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: "Michael Kostan"
-description: "Platform engineer in Auckland, NZ."
+description: "Platform Engineer in Auckland, NZ."
 logo: "assets/images/profile.jpg"
 markdown: kramdown
 plugins: []
